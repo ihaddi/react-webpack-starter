@@ -1,0 +1,52 @@
+@import './fonts';
+@import './font_awesome';
+
+
+.main_container{
+    margin-top: 17rem;
+}
+
+.hadi_text{
+
+    text-align: center;
+    font-size: 25px;
+    font-family: sf-ui;
+    font-weight: 100;
+
+}
+
+.text_persian{
+    direction: rtl;
+    font-family: 'IRANYekan';
+    font-weight: normal;
+    text-align: center;
+}
+
+.copy_right{
+
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'IRANYekan';
+    font-weight: 100;
+    direction: rtl;
+    text-decoration: none;
+}
+.copy_right>a{
+    text-decoration: none;
+}
+
+.social_container{
+    display: flex;
+    justify-content: center;
+}
+.social_media{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+    color: #078cb7;
+
+}
